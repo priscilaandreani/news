@@ -1,3 +1,4 @@
+import { SignInButton } from '../SignInButton';
 import styles from './styles.module.scss';
 
 export default function Header() {
@@ -11,9 +12,7 @@ export default function Header() {
           </a>
           <a href='#'>Posts</a>
         </nav>
-        <button type='button'>
-          <img src='/images/avatar.svg' alt='Avatar' />
-        </button>
+        <SignInButton />
       </div>
     </header>
   );
